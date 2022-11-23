@@ -61,10 +61,19 @@ const AppNavbar = () => {
               <Tab.Pane eventKey='signup'>
                 <SignUpForm handleModalClose={() => setShowModal(false)} />
               </Tab.Pane>
-            </Tab.Content> */}
+            </Tab.Content> */}         
           </Modal.Body>
+          
         </Tab.Container>
-      </Modal>
+      </Modal>   <Link to="/">
+          
+       
+      <div className="shopping-bag"> Bag 
+      <span className="bag-quantity"> 
+      <span>3</span>
+      </span>
+      </div>
+      </Link>
     </>
   );
 };
