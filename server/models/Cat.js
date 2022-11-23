@@ -11,11 +11,13 @@ const catSchema = new Schema({
     type: String,
     required: true,
   },
-  // saved cat id 
-  // catId: {
-  //   type: String,
-  //   required: true,
-  // },
+
+   saved cat id 
+   catId: {
+     type: String,
+     required: true,
+  },
+
   image: {
     type: String,
   },
