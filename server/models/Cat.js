@@ -11,7 +11,7 @@ const catSchema = new Schema({
     type: String,
     required: true,
   },
-  // saved cat id 
+  // saved cat id
   catId: {
     type: String,
     required: true,
